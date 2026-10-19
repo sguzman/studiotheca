@@ -14,4 +14,4 @@
 
 **Finish constraints:** matte dominant; gemstone glow only where it has physical cause and appropriate local light spill. Animated variants may have brighter brief pulses, but persistent neon rims are not the baseline.
 
-See the linked [palette swatch](../../../palette.svg) and [identity manifest](../../../identity.yml).
+See the linked [palette swatch](../../../../palette.svg) and [identity manifest](../../../../identity.yml).

@@ -2,7 +2,7 @@
 
 ![Onyx Foundry proposed color palette](palette.svg)
 
-**Palette reference:** [Structured color tokens](identity.yml) · **Typography:** [Berenis ADF Pro](typography.md) · **Experiments:** [Gallery and status](experiments/README.md)
+**Palette reference:** [Structured color tokens](identity.yml) · **Typography:** [Berenis ADF Pro](typography.md) · **Experiments:** [Gallery and status](experiments/README.md) · **Original artwork:** [Import queue](media-import.yml)
 
 ## Fixed language (current working brief)
 
@@ -27,5 +27,7 @@
 ## Presentation conventions
 
 Keep each experiment's source, rendered exports, and preview together under its own version. The [experiment index](experiments/README.md) is the navigable gallery. Do not replace an approved pixel treatment when developing the physical/cinematic logo.
+
+**Artwork transfer status:** The metadata and original-file checksums are recorded in [media-import.yml](media-import.yml), but the binary artwork itself has **not yet been transferred into GitHub**. The color swatch above is an actual checked-in SVG reference, not the final logo or a substitute for the original renders.
 
 The palette image is a **new schematic swatch chart**, not an extraction from the generated artwork. Exact numerical colors are adjustable.

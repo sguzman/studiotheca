@@ -1,0 +1,50 @@
+schema: studiotheca.media-import.v1
+studio: onyx-foundry
+purpose: "Verify and archive actual source artifacts; no binary files have been imported yet."
+status: pending
+items:
+  - id: steampunk-gear-v001
+    filename: onyx_foundry_steampunk_emblem.png
+    sha256: 9d636fa10e20a23266dbc934ccbed9cc7f8aad37851f22c90046e05866f991cc
+    size_bytes: 1828847
+    dimensions: "1254x1254"
+    role: "Current preferred static emblem candidate: upper barrel and middle cog"
+    target: "experiments/of-steampunk/versions/v001/source/onyx-of-steampunk-v001-master.png"
+    status: pending
+  - id: retro-loop-v001
+    filename: onyx_foundry_inline.gif
+    sha256: 42af9f3cd970c1f5ed4a0f2b3501438cb11d7047cd5728531bdc03eaf1678814
+    size_bytes: 2078559
+    dimensions: "480x480; 96 frames"
+    role: "In-chat approved 32-bit animated ident"
+    target: "experiments/pixel-32-bit/versions/v001/exports/onyx-pixel-v001-loop.gif"
+    status: pending
+  - id: retro-still-v001
+    filename: onyx_foundry_pixel_emblem.png
+    sha256: 22931a4fd511c664491dcaf64ac45e8ceda92dac6094c6c4e754f7e6e0b9abf6
+    size_bytes: 1019047
+    dimensions: "1448x1086"
+    role: "Static 32-bit identity reference"
+    target: "experiments/pixel-32-bit/versions/v001/source/onyx-pixel-v001-still.png"
+    status: pending
+  - id: berenis-specimen-v001
+    filename: font_berenis.png
+    sha256: 12f9fb4cff146e17c4d40c2def4d61b5939aa9bd2183d413b5562021b0c4da2c
+    size_bytes: 40127
+    dimensions: "1600x570"
+    role: "Accepted Berenis ADF Pro specimen; font binary is not part of this manifest"
+    target: "experiments/berenis-original/versions/v001/presentation/berenis-specimen.png"
+    status: pending
+  - id: original-wordmark-v001
+    filename: onyx_typography_1.png
+    sha256: 91e7a388848acfd185ce619f0920a4312257381880c9fa7e9f9fb97f05a5274c
+    size_bytes: 54159
+    dimensions: "1600x620"
+    role: "Original unmodified type treatment (comparison #1)"
+    target: "experiments/berenis-original/versions/v001/presentation/onyx-original-wordmark.png"
+    status: pending
+notes:
+  - "Checksum each imported asset before marking it present."
+  - "Only set status to imported once the actual GitHub file is verified."
+  - "Do not mistake earlier animated MP4/WebP variants for the approved inline GIF."
+  - "Historical generated artwork beyond these curated targets can be cataloged separately without rewriting approved history."
