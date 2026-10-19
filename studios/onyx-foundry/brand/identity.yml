@@ -1,0 +1,27 @@
+schema: studiotheca.brand.v1
+studio: onyx-foundry
+status: working
+concept: "prestige x industry x Mesoamerican material influences"
+colors:
+  obsidian-black: {hex: "#101113", role: "primary background and dark stone"}
+  foundry-charcoal: {hex: "#292A2B", role: "secondary surfaces"}
+  forged-iron: {hex: "#777774", role: "metal and engineered structure"}
+  pale-stone: {hex: "#D5CEC3", role: "matte wordmark and contrast"}
+  carved-walnut: {hex: "#80563A", role: "wooden F/macahuitl body"}
+  sapphire-blue: {hex: "#24539B", role: "small crystal/gem accents"}
+  onyx-vein: {hex: "#AAA49A", role: "stone veining/details"}
+palette_note: "Proposed HEX values; not sampled from source renderings"
+typography:
+  primary: "Berenis ADF Pro"
+  treatment: "Original unmodified forms, solid matte pale-stone"
+  prohibited: ["arbitrary letter cuts", "chrome wordmark", "heavy all-over texture"]
+emblem:
+  o: "matte dark onyx ring"
+  f_stem: "carved walnut wood with dark obsidian side edges; blunt bottom"
+  upper_arm: "right-facing steampunk barrel with smoke from muzzle"
+  upper_joint: "metallic gear; candidate for rotation in animation"
+  middle_arm: "metallic cog/gear"
+  status: "preferred candidate, not approved master"
+animation:
+  historic_32_bit_ident: "approved stylistic treatment"
+  prospective: ["billowing barrel smoke", "rotating gears", "slow crystal pulse and local blue spill"]
