@@ -5,6 +5,8 @@ import json
 import sys
 from pathlib import Path
 
+from validate_identity import validate as validate_studio_identity
+
 root = Path(__file__).resolve().parent.parent
 errors = []
 
@@ -45,6 +47,9 @@ for s in studios:
     studio_ids.add(s.get("id"))
     for key in ("dossier", "brand", "games"):
         path_ok(s.get(key), f"studio {s.get('id')} {key}")
+    if s.get("identity"):
+        path_ok(s["identity"], f"studio {s.get('id')} identity")
+        errors.extend(validate_studio_identity(root, s["identity"], s["id"]))
 
 seen = set()
 for e in experiments:

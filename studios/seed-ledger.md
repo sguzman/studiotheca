@@ -18,7 +18,7 @@ This ledger preserves studio-name and identity directions that are worth remembe
 - **Character:** Atmospheric, melancholic, artistic.
 - **Creative premise:** Evocative worlds and emotionally resonant interactive experiences.
 - **Potential visual language:** A heron silhouette, receding or fading horizon, muted violet, silver, and amber.
-- **Notes:** No bird emblem, landscape, or production artwork is approved or archived as this studio's logo.
+- **Notes:** The Duskheron identity remains an undeveloped seed. Its night-and-moon mood inspired the **separate** [Dusk Raven Works concept](dusk-raven-works/README.md). Duskheron itself remains intact and has not been renamed.
 
 ## Morrowspindle
 
