@@ -4,6 +4,10 @@
 
 Dusk Raven Works combines an emotionally evocative violet-night identity with the productive meaning of *Works*. The signature scene is a watchful raven perched on a branch before a monumental moon. The studio can create games and interactive works across genres; the visual identity should never imply a single genre restriction.
 
+![Small approved-composition preview: a raven on a branch before a luminous violet moon](brand/experiments/violet-moon/versions/v001/presentation/raven-violet-moon-v001-preview-96.jpg)
+
+*Faithful 96px public preview of the original image. [Original study and provenance](brand/experiments/violet-moon/versions/v001/README.md); the full-resolution raster is preserved separately and is not yet checked in.*
+
 ## Identity and navigation
 
 - [Machine-readable identity and symbolic relationships](identity.json)

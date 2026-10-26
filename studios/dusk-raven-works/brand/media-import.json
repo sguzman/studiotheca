@@ -38,6 +38,27 @@
           "status": "checked-in-and-verified"
         }
       ]
+    },
+    {
+      "id": "raven-violet-moon-v002",
+      "kind": "generated-raster-original",
+      "filename": "a_dramatic_moody_fantasy_inspired_night_scene_wi.png",
+      "sha256": "3bea2a954cd78d88801532c1ad3ff23b0df92ac7b08a99829092f94768e91746",
+      "bytes": 2159865,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "format": "image/png",
+      "channels": "RGB",
+      "produced": "2026-10-26",
+      "generator": "OpenAI image generation",
+      "generation_id": "1460c2e8-3a7f-407b-93bb-40025cd10ffc",
+      "verified": "2026-10-26",
+      "status": "unreviewed-original; binary-not-committed",
+      "intended_repository_path": "studios/dusk-raven-works/brand/experiments/violet-moon/versions/v002/source/raven-violet-moon-v002-original.png",
+      "preview_path": null,
+      "remarks": "Alternate generated composition, unreviewed. Not a replacement for v001; no approved emblem or new public release."
     }
   ]
 }

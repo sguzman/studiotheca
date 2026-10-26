@@ -17,6 +17,13 @@ Raven, perch/branch, exceptionally large moon, violet sky. Distant mountains and
 
 The v001 PNG is a raster original with a known checksum. Changing composition, colors, wording, or subject requires a separate version or experiment; do not overwrite the recorded first image.
 
+## Independent versions
+
+- [v001 — original approved-composition scene](versions/v001/README.md). Faithful 96px GitHub preview archived; full-resolution PNG remains external.
+- [v002 — alternate raven-and-moon composition](versions/v002/README.md). New generated candidate; **not reviewed or approved**.
+
+The v002 variant does not supersede v001 or modify its status.
+
 ## Source status
 
 [Media import manifest](../../media-import.json): the original was verified outside this repository, **not yet uploaded to GitHub**.
