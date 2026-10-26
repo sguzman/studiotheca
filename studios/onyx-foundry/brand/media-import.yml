@@ -16,7 +16,7 @@ items:
     sha256: 42af9f3cd970c1f5ed4a0f2b3501438cb11d7047cd5728531bdc03eaf1678814
     size_bytes: 2078559
     dimensions: "480x480; 96 frames"
-    role: "In-chat approved 32-bit animated ident"
+    role: "Accepted 32-bit animated ident"
     target: "experiments/pixel-32-bit/versions/v001/exports/onyx-pixel-v001-loop.gif"
     status: pending
   - id: retro-still-v001
@@ -46,5 +46,5 @@ items:
 notes:
   - "Checksum each imported asset before marking it present."
   - "Only set status to imported once the actual GitHub file is verified."
-  - "Do not mistake earlier animated MP4/WebP variants for the approved inline GIF."
+  - "Distinguish earlier MP4/WebP exports from the accepted reference GIF."
   - "Historical generated artwork beyond these curated targets can be cataloged separately without rewriting approved history."
