@@ -6,6 +6,7 @@ import sys
 from pathlib import Path
 
 from validate_identity import validate as validate_studio_identity
+from validate_artwork import problems as artwork_problems
 
 root = Path(__file__).resolve().parent.parent
 errors = []
@@ -50,6 +51,13 @@ for s in studios:
     if s.get("identity"):
         path_ok(s["identity"], f"studio {s.get('id')} identity")
         errors.extend(validate_studio_identity(root, s["identity"], s["id"]))
+        # The artwork record is referenced from the studio identity.
+        try:
+            identity = json.loads((root / s["identity"]).read_text(encoding="utf-8"))
+            if identity.get("asset_manifest"):
+                errors.extend(artwork_problems(root, identity["asset_manifest"]))
+        except (OSError, ValueError) as exc:
+            errors.append(f"Invalid identity media reference for {s.get('id')}: {exc}")
 
 seen = set()
 for e in experiments:

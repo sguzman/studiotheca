@@ -26,3 +26,7 @@ GitHub Actions tests the export algorithm using synthetic images; it does **not*
 ## Visual sign-off still needed
 
 Review circle crops and legibility at 32/48/128 pixels, compare the silhouette with the approved composition, decide whether the horizon belongs in storefront graphics, and select an actual typeface before announcing canonical branding. No result is automatically approved merely because an export exists.
+
+## Automated integrity gates
+
+The archive's stdlib-only media guard checks committed previews for presence, SHA-256, byte count, and basic JPEG signature. The original still lives outside GitHub; checksum-verified import remains outstanding. A separate Pillow-dependent CI job tests deterministic exports with synthetic media. Neither CI job reviews aesthetic quality or resolves naming rights.

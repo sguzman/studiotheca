@@ -10,7 +10,7 @@ jobs:
       - name: Check catalog and studio ontologies
         run: python3 scripts/validate.py
       - name: Run ontology regression tests
-        run: python3 -m unittest discover -s scripts -p 'test_identity_*.py'
+        run: python3 -m unittest discover -s scripts -p 'test_*validation.py'
   artwork-export:
     runs-on: ubuntu-latest
     steps:
