@@ -5,6 +5,7 @@ An independent creative archive for game-studio identities, visual experiments, 
 ## Explore
 
 - [Onyx Foundry](studios/onyx-foundry/README.md) — a historical working studio concept; its commercial name remains provisional.
+- [Studio seed ledger](studios/seed-ledger.md) — parked name-and-identity drafts, including Orivellum, Duskheron, and Morrowspindle; not selected studios.
 - [Brand experiments](studios/onyx-foundry/brand/experiments/README.md) — versioned studies of an emblem, animation, typography, and palette.
 - [Gallery](gallery/README.md) — actual presentation files currently checked into the repository.
 - [Ontology](ontology/README.md) — machine-readable catalog of studios, experiments, and statuses.
@@ -13,7 +14,7 @@ An independent creative archive for game-studio identities, visual experiments, 
 
 ## Current state
 
-The archive contains **one studio concept**, **four experimental brand tracks**, and **one checked-in palette SVG**. Original emblem and animated ident media are recorded for import but are not yet part of the repository. No game is represented as released, and no studio name is represented as commercially cleared.
+The archive contains **one developed studio concept**, **three parked studio-name seeds**, **four experimental brand tracks**, and **one checked-in palette SVG**. Original emblem and animated ident media are recorded for import but are not yet part of the repository. No game is represented as released, and no studio name is represented as commercially cleared.
 
 This is not a game-source monorepo. Implementations belong in separate repositories, which can be linked from their concept dossiers when available.
 
