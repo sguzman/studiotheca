@@ -1,0 +1,28 @@
+{
+  "schema": "studiotheca.media-import.v1",
+  "studio_id": "dusk-raven-works",
+  "status": "original-verified-not-in-repository",
+  "items": [
+    {
+      "id": "raven-violet-moon-v001",
+      "kind": "generated-raster-original",
+      "filename": "raven_beneath_the_violet_moon.png",
+      "sha256": "8a0e0d072a5f601366de6861976a060e52d96685ec4a129c8de4243fca7f8200",
+      "bytes": 2158509,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "format": "image/png",
+      "channels": "RGB",
+      "produced": "2026-10-26",
+      "generator": "OpenAI image generation",
+      "generation_id": "92c52ad5-a491-4b38-a5ee-077402ff42b7",
+      "verified": "2026-10-26",
+      "status": "verified-in-conversation-workspace; binary-not-committed",
+      "intended_repository_path": "studios/dusk-raven-works/brand/experiments/violet-moon/versions/v001/source/raven-violet-moon-v001-original.png",
+      "preview_path": null,
+      "remarks": "Positively received first concept image. Original is a PNG raster; no editable vector master has been produced. Transfer must preserve exact checksum. Do not claim this is a finished logo or a cleared commercial mark."
+    }
+  ]
+}

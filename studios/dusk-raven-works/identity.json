@@ -1,0 +1,259 @@
+{
+  "schema": "studiotheca.studio-identity.v1",
+  "id": "dusk-raven-works",
+  "name": "Dusk Raven Works",
+  "short_name": "Dusk Raven",
+  "status": "preferred-candidate",
+  "selected_for_development": true,
+  "commercial_clearance": "unverified",
+  "launch_status": "not-launched",
+  "origin": {
+    "seed": "duskheron",
+    "seed_dossier": "studios/seed-ledger.md",
+    "relationship": "creative-descendant-not-rename",
+    "recorded": "2026-10-26"
+  },
+  "purpose": "Independent game and interactive-media maker; the word Works communicates disciplined creation without prescribing a game genre.",
+  "principles": [
+    {
+      "id": "atmosphere",
+      "definition": "Evocative, tranquil, mysterious twilight; emotional seriousness without mandatory gloom."
+    },
+    {
+      "id": "craft",
+      "definition": "Games and art are deliberately made, tested and released; production is expressed by the name Works."
+    },
+    {
+      "id": "range",
+      "definition": "The studio identity may cover diverse game genres and creative formats."
+    },
+    {
+      "id": "clarity",
+      "definition": "The emblem must remain identifiable at small sizes and in reduced-color forms."
+    }
+  ],
+  "entities": [
+    {
+      "id": "raven",
+      "type": "animal",
+      "role": "primary-emblem",
+      "meaning": [
+        "watchfulness",
+        "intelligence",
+        "solitude",
+        "mystery"
+      ],
+      "required_for": "canonical-scene"
+    },
+    {
+      "id": "branch",
+      "type": "natural-support",
+      "role": "foreground-anchor",
+      "meaning": [
+        "stillness",
+        "perch",
+        "framing"
+      ],
+      "required_for": "canonical-scene"
+    },
+    {
+      "id": "moon",
+      "type": "celestial-body",
+      "role": "background-focus",
+      "meaning": [
+        "vastness",
+        "moonlight",
+        "wonder"
+      ],
+      "required_for": "canonical-scene"
+    },
+    {
+      "id": "dusk",
+      "type": "time-and-atmosphere",
+      "role": "environment",
+      "meaning": [
+        "twilight",
+        "transition",
+        "quiet"
+      ],
+      "required_for": "canonical-scene"
+    },
+    {
+      "id": "violet-night",
+      "type": "palette-and-light",
+      "role": "environment",
+      "meaning": [
+        "dreamlike",
+        "melancholy",
+        "depth"
+      ],
+      "required_for": "canonical-scene"
+    },
+    {
+      "id": "works",
+      "type": "name-signifier",
+      "role": "industrial-semantic",
+      "meaning": [
+        "craftsmanship",
+        "production",
+        "making"
+      ],
+      "required_for": "wordmark-not-image"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "raven",
+      "predicate": "perched_on",
+      "object": "branch"
+    },
+    {
+      "subject": "raven",
+      "predicate": "foregrounded_against",
+      "object": "moon"
+    },
+    {
+      "subject": "moon",
+      "predicate": "dominates",
+      "object": "dusk"
+    },
+    {
+      "subject": "violet-night",
+      "predicate": "colors",
+      "object": "dusk"
+    },
+    {
+      "subject": "works",
+      "predicate": "qualifies",
+      "object": "dusk-raven-works"
+    }
+  ],
+  "canonical_composition": {
+    "status": "direction-approved",
+    "statement": "A single dark raven perched on a gnarled foreground branch, silhouetted before an oversized luminous moon in a violet dusk/night sky.",
+    "required": [
+      "raven",
+      "branch",
+      "moon",
+      "dusk",
+      "violet-night"
+    ],
+    "visual_hierarchy": [
+      "moon",
+      "raven",
+      "branch",
+      "environment"
+    ],
+    "optional": [
+      "clouds",
+      "stars",
+      "mountains",
+      "mist",
+      "water",
+      "moonlit-reflections"
+    ],
+    "avoid": [
+      "multiple ravens as primary mark",
+      "replacing raven with heron",
+      "obligatory industrial objects",
+      "photographic clutter at favicon scale"
+    ]
+  },
+  "palette": {
+    "status": "working",
+    "colors": [
+      {
+        "id": "midnight-ink",
+        "hex": "#111025",
+        "role": "dark silhouette/background"
+      },
+      {
+        "id": "deep-indigo",
+        "hex": "#282044",
+        "role": "night shadow"
+      },
+      {
+        "id": "twilight-violet",
+        "hex": "#664A87",
+        "role": "atmosphere"
+      },
+      {
+        "id": "moon-lavender",
+        "hex": "#D5B3D9",
+        "role": "lunar glow"
+      },
+      {
+        "id": "rose-haze",
+        "hex": "#D48CB4",
+        "role": "cloudlight"
+      },
+      {
+        "id": "moon-ivory",
+        "hex": "#F3E1E9",
+        "role": "highlights"
+      }
+    ],
+    "caveat": "Illustrative provisional palette, not sampled or approved exact colors from the originating PNG."
+  },
+  "forms": [
+    {
+      "id": "scene",
+      "purpose": "landscape/key art",
+      "status": "visual-candidate",
+      "constraints": [
+        "oversized moon",
+        "branch-perched raven",
+        "violet dusk"
+      ]
+    },
+    {
+      "id": "emblem",
+      "purpose": "small scalable mark",
+      "status": "not-yet-produced",
+      "constraints": [
+        "clear raven silhouette",
+        "simple moon disc",
+        "branch visible"
+      ]
+    },
+    {
+      "id": "wordmark",
+      "purpose": "full publisher name",
+      "status": "not-yet-produced",
+      "constraints": [
+        "Dusk Raven Works spelled correctly",
+        "readable at display sizes"
+      ]
+    },
+    {
+      "id": "avatar",
+      "purpose": "square social icon",
+      "status": "not-yet-produced",
+      "constraints": [
+        "survive circular crop",
+        "raven legible at 48px"
+      ]
+    },
+    {
+      "id": "banner",
+      "purpose": "wide social storefront header",
+      "status": "not-yet-produced",
+      "constraints": [
+        "subject safe areas",
+        "legible contrast"
+      ]
+    },
+    {
+      "id": "animated-ident",
+      "purpose": "opening studio ident",
+      "status": "not-yet-produced",
+      "constraints": [
+        "motion optional",
+        "still equivalent"
+      ]
+    }
+  ],
+  "asset_manifest": "studios/dusk-raven-works/brand/media-import.json",
+  "decisions": "studios/dusk-raven-works/decisions.md",
+  "quality": "studios/dusk-raven-works/quality.md"
+}

@@ -9,6 +9,16 @@
       "brand": "studios/onyx-foundry/brand/README.md",
       "games": "studios/onyx-foundry/games/README.md",
       "note": "Working historical concept, name clearance pending"
+    },
+    {
+      "id": "dusk-raven-works",
+      "name": "Dusk Raven Works",
+      "status": "preferred-candidate",
+      "dossier": "studios/dusk-raven-works/README.md",
+      "brand": "studios/dusk-raven-works/brand/README.md",
+      "games": "studios/dusk-raven-works/games/README.md",
+      "identity": "studios/dusk-raven-works/identity.json",
+      "note": "Creative descendant of parked Duskheron seed; no commercial clearance or official publisher launch"
     }
   ],
   "experiments": [
@@ -35,6 +45,12 @@
       "studio_id": "onyx-foundry",
       "status": "candidate",
       "dossier": "studios/onyx-foundry/brand/experiments/matte-sapphire/README.md"
+    },
+    {
+      "id": "violet-moon",
+      "studio_id": "dusk-raven-works",
+      "status": "visual-candidate",
+      "dossier": "studios/dusk-raven-works/brand/experiments/violet-moon/README.md"
     }
   ]
 }
