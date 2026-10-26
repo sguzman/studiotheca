@@ -6,12 +6,12 @@ These are gates for future assets, not a claim that the outputs already exist.
 | --- | --- | --- |
 | Identity model | Stable canonical identifiers, valid relations, consistent paths | Authored; repository validation required |
 | Name semantics | Dusk, raven and works meanings recorded without genre lock-in | Authored |
-| Original provenance | Exact generator record, PNG dimensions, SHA-256, source location | Verified in working conversation; GitHub binary absent |
+| Original provenance | Exact generator record, PNG dimensions, SHA-256, source location | Verified, original binary external; preview archived at 96px with validated checksum |
 | Commercial naming | Official US/MX search and common-law conflict review | Unresolved |
 | Primary scene | Raven clearly perched before gigantic moon in purple night | Visual candidate positively received |
 | Emblem | Raven + moon + branch readable at 32, 48, 128, 512px | Not produced |
 | Wordmark | Correct full name, readability, two-background comparison | Not produced |
-| Avatar and banner | Circle crop, square crop, wide safe area | Not produced |
+| Avatar and banner | Circle crop, square crop, wide safe area | Draft full-scene exports produced separately, not approved or archived as final studio media |
 | Accessible reduced-color mark | Silhouette and contrast checks, one-color fallback | Not produced |
 | Animation ident | Verified motion and static-equivalent export | Not produced |
 | Public deployment | Organization, storefront, media, games, cross-links | Not done |

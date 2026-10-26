@@ -10,6 +10,16 @@
       "asset": "studios/onyx-foundry/brand/palette.svg",
       "dossier": "studios/onyx-foundry/brand/experiments/matte-sapphire/README.md",
       "note": "Original schematic SVG; numeric colors are provisional."
+    },
+    {
+      "id": "raven-violet-moon-preview",
+      "studio_id": "dusk-raven-works",
+      "kind": "reference-preview",
+      "status": "working-preview",
+      "title": "Dusk Raven Works — first raven and violet moon concept",
+      "asset": "studios/dusk-raven-works/brand/experiments/violet-moon/versions/v001/presentation/raven-violet-moon-v001-preview-96.jpg",
+      "dossier": "studios/dusk-raven-works/brand/experiments/violet-moon/versions/v001/README.md",
+      "note": "Small exact-image derivative of the approved raster illustration; original full-resolution PNG is recorded but not yet checked in."
     }
   ]
 }

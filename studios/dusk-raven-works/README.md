@@ -11,7 +11,7 @@ Dusk Raven Works combines an emotionally evocative violet-night identity with th
 - [Design system and provisional palette](brand/visual-system.md)
 - [Typography requirements](brand/typography.md)
 - [Violet-moon experiment and first concept version](brand/experiments/violet-moon/README.md)
-- [Original media provenance and pending GitHub import](brand/media-import.json)
+- [First checked-in artwork preview](brand/experiments/violet-moon/versions/v001/README.md) and [original media provenance](brand/media-import.json)
 - [Decision record](decisions.md)
 - [Naming and rights clearance](clearance.md)
 - [Acceptance and verification gates](quality.md)
@@ -37,4 +37,4 @@ The earlier [Duskheron seed](../seed-ledger.md) inspired the atmosphere, but it 
 
 ## Publication limits
 
-The first raven-and-moon PNG has been verified in the working conversation, and its identifying checksum and metadata are recorded in [the import manifest](brand/media-import.json). **The PNG binary is not yet stored in this GitHub repository.** Do not render a broken preview or describe the source as an editable vector file. There is no published game, account, or storefront for this studio yet.
+The first raven-and-moon PNG has been verified in the working conversation, and its identifying checksum and metadata are recorded in [the import manifest](brand/media-import.json). **A small faithful preview is in this repository; the full-resolution PNG is not yet stored in GitHub.** Do not render a broken preview or describe the source as an editable vector file. There is no published game, account, or storefront for this studio yet.
