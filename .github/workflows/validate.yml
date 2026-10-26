@@ -10,4 +10,12 @@ jobs:
       - name: Check catalog and studio ontologies
         run: python3 scripts/validate.py
       - name: Run ontology regression tests
-        run: python3 -m unittest discover -s scripts -p 'test_*.py'
+        run: python3 -m unittest discover -s scripts -p 'test_identity_*.py'
+  artwork-export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install optional image-export dependency
+        run: python3 -m pip install --user Pillow
+      - name: Test deterministic image-export utility with synthetic fixture
+        run: python3 -m unittest discover -s scripts -p 'test_asset_*.py'
