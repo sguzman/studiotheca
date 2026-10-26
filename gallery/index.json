@@ -1,0 +1,15 @@
+{
+  "schema": "studiotheca.gallery.v1",
+  "entries": [
+    {
+      "id": "onyx-working-palette",
+      "studio_id": "onyx-foundry",
+      "kind": "palette",
+      "status": "working-preview",
+      "title": "Onyx Foundry proposed seven-color palette",
+      "asset": "studios/onyx-foundry/brand/palette.svg",
+      "dossier": "studios/onyx-foundry/brand/experiments/matte-sapphire/README.md",
+      "note": "Original schematic SVG; numeric colors are provisional."
+    }
+  ]
+}

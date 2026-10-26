@@ -1,0 +1,40 @@
+{
+  "schema": "studiotheca.catalog.v1",
+  "studios": [
+    {
+      "id": "onyx-foundry",
+      "name": "Onyx Foundry",
+      "status": "concept",
+      "dossier": "studios/onyx-foundry/README.md",
+      "brand": "studios/onyx-foundry/brand/README.md",
+      "games": "studios/onyx-foundry/games/README.md",
+      "note": "Working historical concept, name clearance pending"
+    }
+  ],
+  "experiments": [
+    {
+      "id": "of-steampunk",
+      "studio_id": "onyx-foundry",
+      "status": "candidate",
+      "dossier": "studios/onyx-foundry/brand/experiments/of-steampunk/README.md"
+    },
+    {
+      "id": "pixel-32-bit",
+      "studio_id": "onyx-foundry",
+      "status": "approved-treatment",
+      "dossier": "studios/onyx-foundry/brand/experiments/pixel-32-bit/README.md"
+    },
+    {
+      "id": "berenis-original",
+      "studio_id": "onyx-foundry",
+      "status": "approved-baseline",
+      "dossier": "studios/onyx-foundry/brand/experiments/berenis-original/README.md"
+    },
+    {
+      "id": "matte-sapphire",
+      "studio_id": "onyx-foundry",
+      "status": "candidate",
+      "dossier": "studios/onyx-foundry/brand/experiments/matte-sapphire/README.md"
+    }
+  ]
+}

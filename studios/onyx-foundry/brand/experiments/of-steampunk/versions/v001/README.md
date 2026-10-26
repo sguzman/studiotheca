@@ -1,18 +1,10 @@
-# v001 — top barrel + middle gear
+# v001 — top barrel and middle gear
 
 **Status:** Preferred static candidate, not final commercial master.  
 **Decision date:** 2026-10-19.
 
-## Fixed snapshot
+An onyx O ring encloses an F-shaped walnut shaft with obsidian-edged elements, a mechanical upper joint, a right-facing smoking barrel, and a metallic middle cog. Matte Berenis ADF Pro lettering and small sapphire accents complete the proposal.
 
-A cracked matte onyx O ring encloses an F with a carved walnut vertical shaft, obsidian macuahuitl-like blades, a rotating-capable gear at the top, a right-facing smoke-emitting industrial/steampunk barrel as the top arm, and a prominent gear as the middle arm. Blunt stem base. Berenis ADF Pro wordmark, small sapphire diamonds at either end of FOUNDRY.
+The original file is recorded as `onyx_foundry_steampunk_emblem.png`, but the binary has not yet been uploaded. Its checksum and intended archival path are in [the import manifest](../../../media-import.yml). Do not substitute a redraw under the same version.
 
-## Original file (not yet imported)
-
-The current-conversation generated file was named `onyx_foundry_steampunk_emblem.png`. **The binary image has not been uploaded to this private GitHub repository yet.** Preserve the full original PNG in `source/` once imported; place optimized visual previews under `presentation/`. Do not substitute a redraw for the source without recording it as a new version.
-
-## Future study questions
-
-- Does the F read cleanly in a silhouette?
-- Can gears visibly rotate without colliding with the onyx ring and barrel?
-- Should the middle gear visually integrate more tightly with the wooden post?
+Questions for future studies: F silhouette legibility, gear clearances during motion, and integrating the middle cog with the stem.

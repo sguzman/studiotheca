@@ -5,14 +5,12 @@ status: candidate
 preferred_version: v001
 ---
 
-# Matte material palette with sapphire accent
+# Matte materials with sapphire accents
 
-**Objective:** Keep walnut-brown warmth, onyx darkness, and restrained sapphire identity accents without glossy chrome/blue bloom overwhelming the emblem and text.
+The palette balances walnut warmth, dark onyx, and restrained sapphire. Earlier heavy blue illumination and strongly textured lettering were not selected for the principal matte treatment.
 
-- [v001 — current seven-color reference](versions/v001/README.md)
-- [SVG swatch presentation](../../palette.svg)
-- [Structured palette](../../identity.yml)
+- [v001 — seven-color working specification](versions/v001/README.md)
+- [Palette swatch](../../palette.svg)
+- [Identity tokens](../../identity.yml)
 
-The user repeatedly rejected broad blue illumination and heavy metallic/textured lettering. Those rejected looks should remain recorded as feedback, not disappear from design history.
-
-**Future experiments:** compare blue-vs-red accents, alternative shades of walnut, warmer vs cooler Pale Stone, and specific animated emissive ranges as separate palette versions. Do not alter the shared identity tokens without explicitly recording the choice.
+Alternative color directions should remain distinct experiments or new versions instead of silently altering the recorded reference.

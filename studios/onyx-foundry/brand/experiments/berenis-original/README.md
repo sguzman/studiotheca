@@ -7,10 +7,9 @@ preferred_version: v001
 
 # Original Berenis ADF Pro — typographic baseline
 
-The accepted foundation for the studio wordmark is **Berenis ADF Pro without structural alteration**.
-
-The user selected Berenis from a real-font comparison. Controlled experiments added arbitrary letter cuts to O, Y, and X and were rejected. Keep the authentic glyph shapes rather than adding industrial notches.
+The accepted baseline preserves **Berenis ADF Pro without changing its glyph outlines**. Decorative cuts to individual letters were explored but not selected.
 
 - [v001 — original matte wordmark](versions/v001/README.md)
+- [Typography specification](../../typography.md)
 
-**Future valid experiments:** change layout, letter spacing, size, and context; preserve glyphs unless the user explicitly authorizes another redesign. Follow [typography spec](../../typography.md).
+Further experiments can change spacing, scale, layout, or presentation as separately recorded versions. No font binary is distributed here.
